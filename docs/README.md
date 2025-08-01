@@ -14,5 +14,5 @@ config:
         -
           theme: brand
           text: 每周推歌
-          link: /blog/
+          link: /weeklyPickup/
 ---
