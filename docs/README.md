@@ -9,7 +9,7 @@ config:
     hero:
       name: 
       tagline: 中文虚拟歌手pickup周刊
-      text: 这是一句slogan
+      text: 数据浮沫时代，您的淘歌小助手
       actions:
         -
           theme: brand
