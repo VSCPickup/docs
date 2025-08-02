@@ -1,5 +1,5 @@
 ---
-title: 比赛
+title: Vocaloid Of Fighters
 createTime: 2025/07/30 18:45:45
 permalink: /vof/
 ---

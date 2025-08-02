@@ -12,12 +12,17 @@
 import { viteBundler } from '@vuepress/bundler-vite'
 import { defineUserConfig } from 'vuepress'
 import { plumeTheme } from 'vuepress-theme-plume'
+import {feedPlugin} from "@vuepress/plugin-feed";
+import {copyrightPlugin} from "@vuepress/plugin-copyright";
+import {copyCodePlugin} from "@vuepress/plugin-copy-code";
+import {llmsPlugin} from "@vuepress/plugin-llms";
+import {activeHeaderLinksPlugin} from "@vuepress/plugin-active-header-links";
 
 export default defineUserConfig({
   base: '/',
   lang: 'zh-CN',
   title: 'VSCPickup',
-  description: 'VSCPickup Offical Website',
+  description: 'VSCPickup Official Website',
 
   head: [
     // 配置站点图标
@@ -26,6 +31,35 @@ export default defineUserConfig({
 
   bundler: viteBundler(),
   shouldPrefetch: false, // 站点较大，页面数量较多时，不建议启用
+
+    plugins: [
+        feedPlugin({
+            hostname: "vscpickup.top",
+            rss: true,
+            atom: true,
+            json: true,
+            count: 100,
+            devServer: false,
+
+        }),
+        copyrightPlugin({
+            global: true,
+            author: "VSCPickup Team",
+            license: "Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International",
+            triggerLength: 10
+
+        }),
+        copyCodePlugin({
+            // options
+        }),
+        llmsPlugin({
+            // 配置项
+        }),
+        activeHeaderLinksPlugin({
+            // 配置项
+        }),
+
+    ],
 
   theme: plumeTheme({
     /* 添加您的部署域名, 有助于 SEO, 生成 sitemap */
@@ -48,15 +82,21 @@ export default defineUserConfig({
      * 博客
      * @see https://theme-plume.vuejs.press/config/basic/#blog
      */
-    blog: false, // 禁用博客
-    // blog: {
-    //   postList: true, // 是否启用文章列表页
-    //   tags: true, // 是否启用标签页
-    //   archives: true, // 是否启用归档页
-    //   categories: true, // 是否启用分类页
-    //   postCover: 'right', // 文章封面位置
-    //   pagination: 15, // 每页显示文章数量
-    // },
+    // blog: false, // 禁用博客
+
+
+
+    blog: {
+
+      postList: true, // 是否启用文章列表页
+      tags: true, // 是否启用标签页
+      archives: true, // 是否启用归档页
+        link: "/article/",
+      categories: true, // 是否启用分类页
+      postCover: 'right', // 文章封面位置
+      pagination: 15, // 每页显示文章数量
+        include: ["article/**/*.md"]
+     },
 
     /* 博客文章页面链接前缀 */
   

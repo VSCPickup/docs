@@ -17,6 +17,11 @@
   },
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.24",
+    "@vuepress/plugin-active-header-links": "^2.0.0-rc.112",
+    "@vuepress/plugin-copy-code": "^2.0.0-rc.112",
+    "@vuepress/plugin-copyright": "^2.0.0-rc.112",
+    "@vuepress/plugin-feed": "^2.0.0-rc.112",
+    "@vuepress/plugin-llms": "^2.0.0-rc.112",
     "http-server": "^14.1.1",
     "typescript": "^5.8.3",
     "vue": "^3.5.17",
