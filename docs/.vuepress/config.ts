@@ -87,7 +87,6 @@ export default defineUserConfig({
 
 
     blog: {
-
       postList: true, // 是否启用文章列表页
       tags: true, // 是否启用标签页
       archives: true, // 是否启用归档页
@@ -95,7 +94,8 @@ export default defineUserConfig({
       categories: true, // 是否启用分类页
       postCover: 'right', // 文章封面位置
       pagination: 15, // 每页显示文章数量
-        include: ["article/**/*.md"]
+        include: ["article/**/*.md"],
+        exclude: ["article/模板/*.md"], // 屏蔽模板文件夹，当你需要开发模板时，注释此行
      },
 
     /* 博客文章页面链接前缀 */
@@ -163,7 +163,10 @@ export default defineUserConfig({
        youtube: true,      // 启用嵌入 youtube视频 语法 @[youtube](video_id)
        artPlayer: true,    // 启用嵌入 artPlayer 本地视频 语法 @[artPlayer](url)
        audioReader: true,  // 启用嵌入音频朗读功能 语法 @[audioReader](url)
-       icon: { provider: 'iconify' },        // 启用内置图标语法  ::icon-name::
+       icon: {
+           provider: 'fontawesome',
+           assets: 'fontawesome' // 预设资源地址，从 CDN 加载
+       },
        table: true,        // 启用表格增强容器语法 ::: table
        codepen: true,      // 启用嵌入 codepen 语法 @[codepen](user/slash)
        replit: true,       // 启用嵌入 replit 语法 @[replit](user/repl-name)
