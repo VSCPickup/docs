@@ -43,7 +43,7 @@ export default defineThemeConfig({
 
   /* 站点页脚 */
   footer: {
-    message: '由<a href="/aboutus/other/#开源软件">开源软件社区</a>强力驱动 | <a href="/rss.xml">RSS</a> | <a href="/sitemap.xml">Side Map</a>' ,
+    message: '由<a href="/aboutus/other/#开源软件">开源软件社区</a>强力驱动 | <a href="/rss.xml">RSS</a> | <a href="/sitemap.xml">Site Map</a>' ,
     copyright: 'Copyright © 2025 Virtual Singer Chinese Songs Pick-up Team, All Rights Reserved',
   },
 
