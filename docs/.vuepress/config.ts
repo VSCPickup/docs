@@ -130,7 +130,7 @@ export default defineUserConfig({
        provider: 'algolia',
        appId: 'C682ORK2ZF',
        apiKey: '718dc152656262567b574b55f15b9ece',
-       indexName: '',
+       indexName: 'vscpickup_top_c682ork2zf_pages',
      },
 
     /**
