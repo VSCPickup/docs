@@ -128,9 +128,9 @@ export default defineUserConfig({
      */
     search: {
        provider: 'algolia',
-       appId: 'C682ORK2ZF',
-       apiKey: '718dc152656262567b574b55f15b9ece',
-       indexName: 'vscpickup_top_c682ork2zf_pages',
+       appId: 'B2CAK94QXY',
+       apiKey: '4c274319e3273a810fa7435c2c9fd1b7',
+       indexName: 'vscpickup_top_b2cak94qxy_pages',
      },
 
     /**
