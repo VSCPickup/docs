@@ -7,7 +7,7 @@ import { useRouteLocale } from 'vuepress/client'
 
 <template>
   <div class="aside-nav-wrapper">
-    <VPLink class="link" no-icon href="">
+    <VPLink class="link" no-icon href="https://space.bilibili.com/37031664">
       <span class="vpi-bilibili" />
       <span class="link-text">在Bilibili关注我们</span>
       <span class="vpi-arrow-right" />
