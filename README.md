@@ -2,6 +2,15 @@
 
 本仓库是VSCPickup官网文档仓库，使用npm进行包管理
 
+## 使用指南
+
+如果你想要自荐歌曲，可以到官方交流群找到任意管理员或编辑成员进行编辑
+
+但是，很抱歉，VSCPickup文档并不对非VSCPickup Team的成员开放修改，所以非成员的PR将被直接close。你可以clone本仓库在本地查看，或者对有异议的地方提出issue，或者加入我们参与对文档的维护
+
+
+## 相关技术
+
 网站使用 [vuepress](https://vuepress.vuejs.org/) 和 [vuepress-theme-plume](https://github.com/pengzhanbo/vuepress-theme-plume) 构建生成.
 
 ## Install
