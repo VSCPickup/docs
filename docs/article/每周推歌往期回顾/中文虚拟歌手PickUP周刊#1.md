@@ -1,14 +1,15 @@
 ---
-title: 每周推歌#1
+title: 中文虚拟歌手PickUP周刊#1
 createTime: 2025/08/24 18:01:29
 permalink: /article/c9u27heu/
 ---
-
+> 本期发布时间：2025.8.24
+> <br>
 > 本期视频版：[BV1rgejzJEeT](https://www.bilibili.com/video/BV1rgejzJEeT/)
-> <br><br>
+> <br>
 > 网页的曲目信息可能存在纰漏，若出现错误，请[点击此处加入QQ交流群](https://qun.qq.com/universal-share/share?ac=1&authKey=tOjD/lt9Hy74A%2BXUlip9xcN/a8HqMaFoy3Hwh5AoF/vLGUAGr8UJUbdu0xpHoGlZ&busi_data=eyJncm91cENvZGUiOiIxMDUxMzk5MDM1IiwidG9rZW4iOiJvWkhNamlTeExtRFQ5WEgxZithZjA3VVZPa0FpSUdZRjJPNGZOSndOdURkS01JaWZaZlYyZUtSVnBJeUdrVEJ0IiwidWluIjoiMzU3NTMzMTA1NSJ9&data=kOJV6u16ABt-CQBjW8cnhjmHiysAqIkEDbgFAI-tqSwnrJFqDVmDZCNPf984NOlZrq9UWCvEuLPINBNAFwH68xLz17ye08PWGwdy3aPF0xA&svctype=5&tempid=h5_group_info)，
 > 向群内反馈
-> <br><br>
+> <br>
 > 另：我们现在缺少维护官网信息的志愿者。如果你熟悉[VuePress](https://vuepress.vuejs.org/zh/)，[Markdown语法](https://markdown.com.cn/basic-syntax/)，[Git](https://git-scm.com/book/zh/v2)以及[Github](https://Github.com)，且有意向帮助我们，欢迎加入我们的技术支持团队，请在交流群联系我们
 
 :::details 本期视频版
