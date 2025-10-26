@@ -83,24 +83,49 @@ export default defineUserConfig({
      * @see https://theme-plume.vuejs.press/config/basic/#blog
      */
     // blog: false, // 禁用博客
+    collections: [
+        {
+            type: 'post', // 替代原博客功能
+            dir: 'article', // 指向 docs/blog 目录
+            title: '博客', // 集合显示名称
+            postList: true, // 是否启用文章列表页
+            tags: true, // 是否启用标签页
+            archives: true, // 是否启用归档页
+            link: "/article/",
+            categories: true, // 是否启用分类页
+            postCover: 'right', // 文章封面位置
+            pagination: 15, // 每页显示文章数量
+            include: ["article/**/*.md"],
+            exclude: ["article/模板/*.md"], // 屏蔽模板文件夹，当你需要开发模板时，注释此行
+        },
+        {
+            type: 'doc', // 替代原笔记功能
+            dir: 'notes/aboutUs',
+            title: '关于我们',
+            linkPrefix: '/aboutus',
+            sidebar: 'auto',
+        },
+        {
+            type: 'doc', // 替代原笔记功能
+            dir: 'notes/vof',
+            title: '?',
+            linkPrefix: '/vof',
+            sidebar: 'auto',
+        },
+        {
+            type: 'doc', // 替代原笔记功能
+            dir: 'notes/weeklyPickup',
+            title: '?',
+            linkPrefix: '/weeklyPickup',
+            sidebar: 'auto',
+        },
+    ],
 
 
 
-    blog: {
-      postList: true, // 是否启用文章列表页
-      tags: true, // 是否启用标签页
-      archives: true, // 是否启用归档页
-        link: "/article/",
-      categories: true, // 是否启用分类页
-      postCover: 'right', // 文章封面位置
-      pagination: 15, // 每页显示文章数量
-        include: ["article/**/*.md"],
-        exclude: ["article/模板/*.md"], // 屏蔽模板文件夹，当你需要开发模板时，注释此行
-     },
 
     /* 博客文章页面链接前缀 */
-  
-    article: '/article/',
+
 
     /**
      * 编译缓存，加快编译速度
